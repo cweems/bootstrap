@@ -161,8 +161,9 @@ module.exports = function (grunt) {
           sourceMapURL: '<%= pkg.name %>.css.map',
           sourceMapFilename: 'dist/css/<%= pkg.name %>.css.map'
         },
-        src: 'less/bootstrap.less',
-        dest: 'dist/css/<%= pkg.name %>.css'
+        files: {
+          'dist/css/<%= pkg.name %>.css': 'less/bootstrap.less'
+        }
       },
       compileTheme: {
         options: {
@@ -358,13 +359,8 @@ module.exports = function (grunt) {
         livereload: true,
       },
       src: {
-<<<<<<< HEAD
         files: ['<%= jshint.src.src %>', 'tc/**/*.html']
         /*tasks: ['jshint:src', 'qunit']*/
-=======
-        files: '<%= jshint.src.src %>',
-        tasks: ['jshint:src', 'qunit', 'concat']
->>>>>>> 559f16572f6c1f0967ee7fcd72c07c67423d85d8
       },
       test: {
         files: '<%= jshint.test.src %>',
