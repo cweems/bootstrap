@@ -350,6 +350,9 @@ module.exports = function (grunt) {
     },
 
     watch: {
+      options: {
+        livereload: true,
+      },
       src: {
         files: '<%= jshint.src.src %>',
         tasks: ['jshint:src', 'qunit']
