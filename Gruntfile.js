@@ -354,7 +354,7 @@ module.exports = function (grunt) {
         livereload: true,
       },
       src: {
-        files: '<%= jshint.src.src %>',
+        files: ['<%= jshint.src.src %>', 'tc/**/*.html'],
         tasks: ['jshint:src', 'qunit']
       },
       test: {
