@@ -10,7 +10,7 @@
     <script src="//localhost:35729/livereload.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
-    <title>Theme for Bootstrap</title>
+    <title>Theme for TechChange</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/dist/css/bootstrap.css" rel="stylesheet">
@@ -28,7 +28,7 @@
   <body role="document">
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -37,11 +37,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">TechChange</a>
+          <a class="navbar-brand xs-hidden" href="#"><span class="glyphicon glyphicon-leaf"></span> TechChange</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Courses</a></li>
+            <li><a href="#">Courses</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -55,21 +55,37 @@
             </li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#contact">Blog</a></li>
-            <li><a href="#contact">Login</a></li>
+            <li><a href="#login"><button type="button" class="btn btn-transparent">Login</button></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <div class="container theme-showcase" role="main">
-
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>TechChange</h1>
-        <p>Technology doesn't change the world, people do.</p>
-        <p><a href="#" class="btn btn-primary btn-lg" role="button">Register for a Course &raquo;</a></p>
+        <div class="container">
+          <div class="col-md-6">
+            <br>
+            <br>
+            <h2>Technology doesn't change the world, people do.</h2>
+            <br>
+            <p><a href="#" class="btn btn-transparent btn-lg" role="button">Register for a Course &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+          </div>
+        </div>
       </div>
 
+    <div class="container theme-showcase" role="main">
+
+
+      <div class="page-header">
+        <h1>Colors</h1>
+      </div>
+
+      <div class="page-header">
+        <h1>Logos</h1>
+      </div>
 
 
       <div class="page-header">
@@ -77,6 +93,7 @@
       </div>
       <p>
         <button type="button" class="btn btn-lg btn-default">Default</button>
+        <button type="button" class="btn btn-lg btn-transparent">Transparent</button>
         <button type="button" class="btn btn-lg btn-primary">Primary</button>
         <button type="button" class="btn btn-lg btn-success">Success</button>
         <button type="button" class="btn btn-lg btn-info">Info</button>
@@ -86,6 +103,7 @@
       </p>
       <p>
         <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-transparent">Transparent</button>
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-success">Success</button>
         <button type="button" class="btn btn-info">Info</button>
@@ -95,6 +113,7 @@
       </p>
       <p>
         <button type="button" class="btn btn-sm btn-default">Default</button>
+        <button type="button" class="btn btn-sm btn-transparent">Transparent</button>
         <button type="button" class="btn btn-sm btn-primary">Primary</button>
         <button type="button" class="btn btn-sm btn-success">Success</button>
         <button type="button" class="btn btn-sm btn-info">Info</button>
@@ -104,6 +123,7 @@
       </p>
       <p>
         <button type="button" class="btn btn-xs btn-default">Default</button>
+        <button type="button" class="btn btn-xs btn-transparent">Transparent</button>
         <button type="button" class="btn btn-xs btn-primary">Primary</button>
         <button type="button" class="btn btn-xs btn-success">Success</button>
         <button type="button" class="btn btn-xs btn-info">Info</button>
@@ -112,8 +132,21 @@
         <button type="button" class="btn btn-xs btn-link">Link</button>
       </p>
 
-
-
+      <div class="page-header">
+        <h1>Inputs</h1>
+      </div>
+      <div class="container">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Text input">
+          <br>
+          <textarea class="form-control" rows="3" placeholder="Text input with three rows"></textarea>
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Text input">
+          <br>
+          <textarea class="form-control" rows="3" placeholder="Text input with three rows"></textarea>
+        </div>
+      </div>
       <div class="page-header">
         <h1>Tables</h1>
       </div>
@@ -259,7 +292,17 @@
       <div class="page-header">
         <h1>Thumbnails</h1>
       </div>
-      <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+      <div class="container">
+        <div class="col-md-4">
+          <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+        </div>
+        <div class="col-md-4">
+          <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+        </div>
+        <div class="col-md-4">
+          <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+        </div>
+      </div>
 
 
 
