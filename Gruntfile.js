@@ -168,7 +168,7 @@ module.exports = function (grunt) {
           sourceMapFilename: 'dist/css/<%= pkg.name %>-theme.css.map'
         },
         files: {
-          'dist/css/<%= pkg.name %>-theme.css': 'less/theme.less'
+          'dist/css/tc.css': 'less/tc-less/tc.less'
         }
       }
     },
@@ -354,8 +354,8 @@ module.exports = function (grunt) {
         livereload: true,
       },
       src: {
-        files: ['<%= jshint.src.src %>', 'tc/**/*.html'],
-        tasks: ['jshint:src', 'qunit']
+        files: ['<%= jshint.src.src %>', 'tc/**/*.html']
+        /*tasks: ['jshint:src', 'qunit']*/
       },
       test: {
         files: '<%= jshint.test.src %>',
