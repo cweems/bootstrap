@@ -19,6 +19,12 @@ module.exports = function (grunt) {
   var path = require('path');
   var npmShrinkwrap = require('npm-shrinkwrap');
   var BsLessdocParser = require('./grunt/bs-lessdoc-parser.js');
+  var getLessVarsData = function () {
+    var filePath = path.join(__dirname, 'less/variables.less');
+    var fileContent = fs.readFileSync(filePath, { encoding: 'utf8' });
+    var parser = new BsLessdocParser(fileContent);
+    return { sections: parser.parseFile() };
+  };
   var generateRawFiles = require('./grunt/bs-raw-files-generator.js');
 
   // Project configuration.
@@ -155,9 +161,8 @@ module.exports = function (grunt) {
           sourceMapURL: '<%= pkg.name %>.css.map',
           sourceMapFilename: 'dist/css/<%= pkg.name %>.css.map'
         },
-        files: {
-          'dist/css/<%= pkg.name %>.css': 'less/bootstrap.less'
-        }
+        src: 'less/bootstrap.less',
+        dest: 'dist/css/<%= pkg.name %>.css'
       },
       compileTheme: {
         options: {
@@ -235,11 +240,13 @@ module.exports = function (grunt) {
         keepSpecialComments: '*',
         noAdvanced: true
       },
-      core: {
-        files: {
-          'dist/css/<%= pkg.name %>.min.css': 'dist/css/<%= pkg.name %>.css',
-          'dist/css/<%= pkg.name %>-theme.min.css': 'dist/css/<%= pkg.name %>-theme.css'
-        }
+      minifyCore: {
+        src: 'dist/css/<%= pkg.name %>.css',
+        dest: 'dist/css/<%= pkg.name %>.min.css'
+      },
+      minifyTheme: {
+        src: 'dist/css/<%= pkg.name %>-theme.css',
+        dest: 'dist/css/<%= pkg.name %>-theme.min.css'
       },
       docs: {
         src: [
@@ -277,9 +284,8 @@ module.exports = function (grunt) {
         dest: 'docs/examples/'
       },
       docs: {
-        files: {
-          'docs/assets/css/src/docs.css': 'docs/assets/css/src/docs.css'
-        }
+        src: 'docs/assets/css/src/docs.css',
+        dest: 'docs/assets/css/src/docs.css'
       }
     },
 
@@ -315,20 +321,17 @@ module.exports = function (grunt) {
     },
 
     jade: {
-      compile: {
-        options: {
-          pretty: true,
-          data: function () {
-            var filePath = path.join(__dirname, 'less/variables.less');
-            var fileContent = fs.readFileSync(filePath, { encoding: 'utf8' });
-            var parser = new BsLessdocParser(fileContent);
-            return { sections: parser.parseFile() };
-          }
-        },
-        files: {
-          'docs/_includes/customizer-variables.html': 'docs/_jade/customizer-variables.jade',
-          'docs/_includes/nav/customize.html': 'docs/_jade/customizer-nav.jade'
-        }
+      options: {
+        pretty: true,
+        data: getLessVarsData
+      },
+      customizerVars: {
+        src: 'docs/_jade/customizer-variables.jade',
+        dest: 'docs/_includes/customizer-variables.html'
+      },
+      customizerNav: {
+        src: 'docs/_jade/customizer-nav.jade',
+        dest: 'docs/_includes/nav/customize.html'
       }
     },
 
@@ -341,7 +344,8 @@ module.exports = function (grunt) {
         relaxerror: [
           'Bad value X-UA-Compatible for attribute http-equiv on element meta.',
           'Element img is missing required attribute src.',
-          'Attribute autocomplete not allowed on element input at this point.'
+          'Attribute autocomplete not allowed on element input at this point.',
+          'Attribute autocomplete not allowed on element button at this point.'
         ]
       },
       files: {
@@ -354,8 +358,13 @@ module.exports = function (grunt) {
         livereload: true,
       },
       src: {
+<<<<<<< HEAD
         files: ['<%= jshint.src.src %>', 'tc/**/*.html']
         /*tasks: ['jshint:src', 'qunit']*/
+=======
+        files: '<%= jshint.src.src %>',
+        tasks: ['jshint:src', 'qunit', 'concat']
+>>>>>>> 559f16572f6c1f0967ee7fcd72c07c67423d85d8
       },
       test: {
         files: '<%= jshint.test.src %>',
