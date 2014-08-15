@@ -108,7 +108,8 @@ module.exports = function (grunt) {
           'js/popover.js',
           'js/scrollspy.js',
           'js/tab.js',
-          'js/affix.js'
+          'js/affix.js',
+          'js/tc/tc.js'
         ],
         dest: 'dist/js/<%= pkg.name %>.js'
       }
@@ -359,8 +360,9 @@ module.exports = function (grunt) {
         livereload: true,
       },
       src: {
-        files: ['<%= jshint.src.src %>', 'tc/**/*.html']
+        files: ['<%= jshint.src.src %>', 'tc/**/*.html', 'js/**/*.js'],
         /*tasks: ['jshint:src', 'qunit']*/
+        tasks: 'concat'
       },
       test: {
         files: '<%= jshint.test.src %>',
