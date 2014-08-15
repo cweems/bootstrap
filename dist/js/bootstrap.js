@@ -2176,7 +2176,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 jQuery(document).ready(function() {
 	jQuery(window).scroll(function(){
 		var scroll = $(window).scrollTop();
-	    if (scroll >= 30) {
+	    if (scroll >= 3) {
 	        jQuery(".navbar").addClass("navbar-active");
 	    } else {
 	    	jQuery(".navbar").removeClass("navbar-active");

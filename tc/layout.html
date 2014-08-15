@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html ng-app ng-controller="mainCtrl" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <script src="//localhost:35729/livereload.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+    <title>Theme for TechChange</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- TechChange core CSS -->
+    <link href="/dist/css/tc.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--Super Hacky Fix for State of TechChange: REMOVE LATER -->
+    <style>
+      #login{
+        margin-top: -7px;
+      }
+    </style>
+
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand xs-hidden" href="#"><span class="glyphicon glyphicon-leaf"></span> TechChange</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Courses</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Learning Platform</a></li>
+                <li><a href="#">Instructional Design</a></li>
+                <li><a href="#">Animation</a></li>
+                <li><a href="#">Facilitation</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Teach with Us</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Blog</a></li>
+            <li><a href="#login" id="login"><button type="button" class="btn btn-transparent">Login</button></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <div class="col-md-6">
+            <br>
+            <br>
+            <h2>Technology doesn't change the world, people do.</h2>
+            <br>
+            <p><a href="#" class="btn btn-transparent btn-lg" role="button">Register for a Course &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+          </div>
+        </div>
+      </div>
+
+    <div class="container theme-showcase" role="main">
+
+      <div class="page-header">
+        <h1>Courses</h1>
+        <input type="text" class="form-control form-group-lg" ng-model="q" placeholder="Search Courses">
+      </div>
+        <div class="winner-block col-md-4 col-sm-12" ng-animate="{enter: 'view-enter'}" ng-repeat="winner in winners | filter:q">
+          <div class="cover well">
+            <img src="data/img/{{winner.img}}" alt="{{winner.name}}" class="img-circle center-block" width="125px" height="125px">
+            <div class="text-wrapper center-block">
+              <h4>{{winner.name}}</h4>
+              <h4><small><span></span> {{winner.location}}</small></h4>
+              <button class="btn btn-success" data-toggle="modal" data-target="#{{winner.modalId}}">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+        <!--End First Section-->
+
+    
+
+
+        <!-- Modal 1-->
+        <div ng-repeat="winner in winners" class="modal fade" id="{{winner.modalId}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">{{winner.name}}</h4>
+              </div>
+              <div class="modal-body">
+                <a href="{{winner.website}}"><img src="data/img/{{winner.img}}" alt="{{winner.name}}" class="img-circle center-block" width="125px" height="125px"></a>
+                <br>
+                <div style="text-align:center;">
+                <a id="myModalLabel" href="{{winner.website}}"><h3>{{winner.name}}</h3></a>
+                <br>
+                </div>
+                <div ng-bind-html-unsafe="winner.modalContent"></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../dist/js/bootstrap.js"></script>
+    <script src="../docs/assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+    <script type="text/javascript">
+        function mainCtrl($scope, $http){
+          $http.get('data/items.txt').success(function(data) {
+            $scope.winners = data; //Loads content items
+            /*$scope.Filter = {name : ''};*/
+          });
+        }
+    </script>
+  </body>
+</html>
