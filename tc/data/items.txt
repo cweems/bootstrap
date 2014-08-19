@@ -7,7 +7,7 @@
         "img": "bamboo.png", 
         "modalId": "1",
         "category" : "Processing",
-        "modalContent" : "<br><p><em>Awardee:</em> African Bamboo PLC (Ethiopia).</p><p><em>Collaborator(s):</em> Heartland Global (USA)</p><p><em>Location Applied:</em> Southern Nations, Nationalities, and Peoples' Region (SNNPR), Ethiopia</p><p><em>Opportunity:</em> Within Ethiopia, there is over 1 million hectares of bamboo. Recognized as a fast-growing and largely sustainable raw material, there is an increasing global demand for bamboo as a wood substitute for a variety of construction and furnishing applications.  However, bamboo resources are often poorly managed. Most engaged in the industry have limited knowledge of modern value-added processing techniques, which limit their earning potential.  As such, there is an opportunity to use new clean energy technologies in treating bamboo, so a broader market penetration can be achieved.</p>"
+        "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name":"TC 102: Disaster Response", 
@@ -17,7 +17,7 @@
         "img": "camco-resized.jpg", 
         "modalId": "2",
         "category" : "Power",
-        "modalContent" : "<br><p><em>Awardee:</em> Camco Advisory Services (Tanzania) Ltd<br><p><em>Collaborator(s):</em> Gazogen, Inc., dba Village Industrial Power (VIP) (USA)<br><p><em>Location Applied:</em> The Oueme region in Benin, and the Kigoma region in Tanzania<br><p><em>Opportunity:</em> In rural areas of Benin and Tanzania, access to modern energy services is extremely limited. Without electricity, farming communities are slow in their adoption of modern agriculture practices– resulting in sparse irrigation, lagging food production, and few opportunities for value-added processing and refrigerated storage. Though some communities depend on fossil fuel-based technologies to meet their energy needs, perpetually escalating fuel costs - coupled with adverse environmental impacts - necessitate the exploration of more affordable and sustainable options.<br>"
+        "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name":"TC 103: Online Dating", 
@@ -27,7 +27,7 @@
         "img": "nick.jpg", 
         "modalId": "3",
         "category" : "Irrigation",
-        "modalContent" : "<p>Awardee: The Earth Institute at Columbia University</p><p><em>Collaborator(s):</em> The MDG Center West and Central Africa</p><p><em>Location Applied:</em> Potou, Senegal</p><p><em>Problem/Opportunity:</em>  In Senegal, farmers currently have two practices for irrigation: the labor intensive method of flood irrigation with wells and buckets or the cost- and energy-intensive method of using diesel motor pumps. Neither of these options is ideal in a country with immense solar resources that can be used to transform irrigation practices in the country and region.  </p>"
+        "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name":"TC 104: Hack It Like Heck", 
@@ -37,7 +37,7 @@
         "img": "earthspark-resized.jpg", 
         "modalId": "4",
         "category" : "Power",
-        "modalContent" : "<p><em>Awardee:</em> EarthSpark International</p><p><em>Collaborator(s):</em> Entreprises La Foi, Jean Maurice Buteau</p><p><em>Location Applied:</em> Les Anglais, Haiti</p><p><em>Problem/Opportunity:</em> In Haiti 75% of the country’s population lacks access to electricity, and farmers frequently lose the value of their crops for want of infrastructure and processing equipment.  Where processing facilities do exist, they are typically diesel powered and expensive to operate. This imposes a severe limitation on farmers’ ability to process agricultural goods, capture the value of their products, and improve their livelihoods. </p>"
+        "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
         "name":"TC 105: Cat Cinematography", 
@@ -47,7 +47,7 @@
         "img": "experience-resized.jpg",
         "modalId": "5",
         "category" : "Clean",
-        "modalContent" : "<p><em>Awardee:</em> Experience International, Inc. (US/Thailand)</p><p><em>Technical Partner:</em> Contained Energy (Indonesia)</p><p><em>Location Applied:</em> Eastern Islands, Indonesia </p><p><em>Opportunity:</em> Indonesia has over 7,000 inhabited islands with abundant marine resources, and a huge fishing industry. For example, 15 percent of the global tuna catch in 2009 came from Indonesia. However, few feasible refrigeration options are available, which results in an estimated 35% spoilage of the fish caught. Cold-chain facilities that do exist are primarily powered by expensive diesel. Vast opportunities exist to harness solar power to empower communities with new options for cold storage of the fishing catch. </p>"
+        "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {   
         "name":"TC 106: Rainbow Identification",
@@ -57,7 +57,7 @@
         "img": "ide-resized.jpg",
         "modalId": "6",
         "category" : "Irrigation",
-        "modalContent" : "<p><em>Awardee:</em> iDE (International Development Enterprises) (USA)</p><p><em>Collaborators:</em> PRACTICA Foundation (Netherlands); Futurepump Ltd (UK)</p><p><em>Location Applied:</em> Honduras; Nepal; and  Zambia </p><p><em>Opportunity:</em> Around the world more than 800 million farmers manually lift and haul water to irrigate their farms. These farmers can drastically decrease their manual labor and expand their irrigable area by employing motorized pumps. Currently, the most accessible and affordable pump solutions are 4 to 7 horsepower pumps powered by increasingly expensive fossil fuels. Consequently, many farmers are either unable to provide sufficient irrigation to their crops, and/or must allocate a sufficient portion of their income to environmentally-hazardous fossil fuels.</p>"
+        "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {    "name":"TC 107: Award Giving",
          "website" : "http://motivoengineering.com/",
@@ -66,7 +66,7 @@
          "img": "motivo-resized.jpg",
          "modalId": "7",
          "category" : "Processing",
-         "modalContent" : "<p><em>Awardee:</em> Motivo Engineering, LLC </p><p><em>Collaborator(s):</em> The KVK Foundation; Feuerlabs </p><p><em>Location applied:</em> West Godavari, Andhra Pradesh, India</p><p><em>Problem/Opportunity:</em> Although farm productivity in India has grown steadily over recent decades, crop yields are still just 30 % to 60 % of the best sustainable crop yields achievable in the farms of developed as well as other developing countries. Additionally, India has some of the highest food losses in the world as a result of poor infrastructure and a disorganized retail sector. Agricultural productivity could be significantly boosted by creating more accessible agricultural machinery and providing a mobile energy source that in turn runs on cheaper renewable energy sources to meet multiple farm needs such as cold storage and transportation.</p>"
+         "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {    "name":"TC 108: Jousting",
          "website" : "http://www.ecoconsult.jo/",
@@ -75,7 +75,7 @@
          "img": "ecoconsult-resized.png",
          "modalId": "8",
          "category" : "Processing",
-         "modalContent" : "<p><em>Awardee:</em> ECO Consult (Jordan)</p><p><em>Technology:</em> Integrated Hydroponic and Photovoltaic Farming </p><p><em>Location Applied:</em> Jordan</p><p><em>Opportunity:</em> ECO Consult is a leading Jordanian development firm experienced carrying complex projects in public sector reform, energy efficiency and renewable energy, private sector development, local governance and development zones, water, agriculture, and environment.</p><p><em>El Wir Farm in Zarqa River and one large farm in the Highlands. The community households cluster will be identified during the feasibility study. Other collaborators will include farmers in project areas, farmer associations, community based organizations, among others.</p><p><em>Problem:</em> Jordan is among the ten most water scarce countries in the world with per capita water standing at around 150 m3/year. It also has one of the highest population growth rates, posing  serious constraint on water allocations. While agriculture currently consumes around 65% of the countries water, this allocation is expected to considerable reduce in the future and many farmers are now looking for alternative solutions that will permit them to continue farming and ensure their income. </p>"
+         "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {    "name":"TC 109: Pablo Pablo Pablo",
          "website" : "http://www.rebound-tech.com/",
@@ -84,7 +84,7 @@
          "img": "rebound-resized.png",
          "modalId": "9",
          "category" : "Clean",
-         "modalContent" : "<p><em>Awardee:</em>  Rebound Technology </p><p><em>Location applied:</em> Inhambane Province, Mozambique</p><p><em>Collaborator(s):</em> Colorado State University; TechnoServe; Mozambique Organicos.</p><p><em>Problem/Opportunity:</em> Post-harvest, physiological obstacles such as ethane production, respiration and microbial attack make getting high quality horticultural products to market a significant challenge. Removing field heat from these products can double shelf life and reduce spoilage rates that often exceed 40% in developing nations. Unfortunately, current off-grid cooling technologies are expensive, energy intensive and difficult to maintain. </p><p><em>Clean Energy Solution:</em> SunChill is a novel, off-grid refrigeration solution enabling increased agricultural productivity by A) removing field heat from crops immediately following harvest and B) providing continued product cooling at local markets and/or central processing facilities. This clean energy solution transforms 50°C solar thermal energy into 10°C refrigeration using water-based refrigerants, zero electricity and local, non-precision components. These characteristics enable production of a low cost, low maintenance technology that reduces spoilage and benefits smallholder farmer livelihoods. </p>"
+         "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {    "name":"TC 110: Mobile Money, Mo Problems",
          "website" : "http://coolectrica.com/impact",
@@ -93,7 +93,7 @@
          "img": "promethian-resized.jpg",
          "modalId": "10",
          "category" : "Clean",
-         "modalContent" : "<p><em>Awardee:</em> Promethean Power Systems</p><p><em>Collaborator(s):</em> Hatsun Agro, Orb Energy</p><p><em>Location Applied:</em> India</p><p><em>Problem/Opportunity:</em>  In India, $10 billion worth of perishable foods are wasted annually because of unreliable cold-chain supply networks. A major obstacle in setting up cold chain networks is the lack of reliable electricity to run refrigeration systems in villages and farming areas.  Diesel generators are often used to provide electricity for milk chilling, a non-ideal solution with high operating costs and negative environmental impact.  Innovative battery storage technology coupled with solar generation can dramatically change the way conventional milk supply networks are operated, increasing the quality and quantity of the milk consumed in India.   </p>"
+         "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {    "name":"TC 111: Zombie Survival",
          "website" : "http://www.sundanzer.com/",
@@ -102,7 +102,7 @@
          "img": "sundanzer-resized.png",
          "modalId": "11",
          "category" : "Clean",
-         "modalContent" : "<p><em>Awardee:</em> SunDanzer Refrigeration, Inc (USA).</p><p><em>Collaborator(s):</em> Winrock International (USA); Office of the County Executive for Agriculture, Livestock and Fisheries, Baringo County (Kenya); </p><p><em>Location Applied:</em> Nakuru Region, Kenya </p><p><em>Opportunity:</em> Due to limited electrification in rural areas, 85% of Kenya’s 800,000+ dairy farms do not have access to refrigerated storage and transportation. This deficiency in the distribution chain results in less than half of the milk produced reaching dairy processors. Of the milk that is processed, up to 30% of it may spoil without appropriate cold-storage options.  Consequently, many dairy farmers and processors unnecessarily may lose significant earning potential from their operations. Of the milk that does arrive, much of it has a high bacterial count due to lack of refrigeration, and this results in poor quality dairy products. Farmers can receive a premium price for providing higher quality, refrigerated milk to dairy processors. Dairy processors can also charge a premium for better quality and tasting dairy products if the milk can be chilled from farm to factory.</p>"
+         "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {    "name":"TC 112: DC Restaurant Week",
          "website" : "http://www.ovpr.uga.edu/ugarf/",
@@ -111,6 +111,6 @@
          "img": "fortunes-resized.jpg",
          "modalId": "12",
          "category" : "Clean",
-         "modalContent" : "<p><em>Awardee:</em> University of Georgia Research Foundation (UGARF) (USA)</p><p><em>Collaborators:</em> Smallholder Fortunes (Uganda)</p><p><em>Location Applied:</em> Wakiso District, Uganda </p><p><em>Opportunity:</em> In sub-Saharan African both large dairies and small farmers suffer from lack of proper refrigeration options. In the case of large dairies, they can’t export milk to neighboring markets due to international standards that milk be cooled within four hours of milking. Small dairy farmers, constituting 80% of the dairy sector in Uganda, may lose 20%-50% of milk produced to spoilage due in part to lack of cold-chain facilities. Small farmers often do not have access to electricity to run refrigeration units, while kerosene and solar-powered options have proved too expensive and difficult to operate.</p>"
+         "modalContent" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
 ]

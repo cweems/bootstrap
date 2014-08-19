@@ -1,10 +1,13 @@
 // Progress bars
 
-.progress-bar-variant(@color) {
-  background-color: @color;
+@import "../../mixins/progress-bar.less";
 
-  // Deprecated parent class requirement as of v3.2.0
-  .progress-striped & {
-    #gradient > .striped();
-  }
-}
+
+//.progress-bar-variant(@color) {
+//  background-color: @color;//
+
+//  // Deprecated parent class requirement as of v3.2.0
+//  .progress-striped & {
+//    #gradient > .striped();
+//  }
+//}
