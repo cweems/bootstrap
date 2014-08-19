@@ -2,83 +2,84 @@
 // Grid system
 // --------------------------------------------------
 
+@import "../grid.less";
 
 // Container widths
 //
 // Set the container width, and override it for fixed navbars in media queries.
 
-.container {
-  .container-fixed();
+//.container {
+//  .container-fixed();//
 
-  @media (min-width: @screen-sm-min) {
-    width: @container-sm;
-  }
-  @media (min-width: @screen-md-min) {
-    width: @container-md;
-  }
-  @media (min-width: @screen-lg-min) {
-    width: @container-lg;
-  }
-}
-
-
-// Fluid container
+//  @media (min-width: @screen-sm-min) {
+//    width: @container-sm;
+//  }
+//  @media (min-width: @screen-md-min) {
+//    width: @container-md;
+//  }
+//  @media (min-width: @screen-lg-min) {
+//    width: @container-lg;
+//  }
+//}
 //
-// Utilizes the mixin meant for fixed width containers, but without any defined
-// width for fluid, full width layouts.
 
-.container-fluid {
-  .container-fixed();
-}
+//// Fluid container
+////
+//// Utilizes the mixin meant for fixed width containers, but without any defined
+//// width for fluid, full width layouts.//
 
-
-// Row
+//.container-fluid {
+//  .container-fixed();
+//}
 //
-// Rows contain and clear the floats of your columns.
 
-.row {
-  .make-row();
-}
+//// Row
+////
+//// Rows contain and clear the floats of your columns.//
 
-
-// Columns
+//.row {
+//  .make-row();
+//}
 //
-// Common styles for small and large grid columns
 
-.make-grid-columns();
+//// Columns
+////
+//// Common styles for small and large grid columns//
 
-
-// Extra small grid
+//.make-grid-columns();//
 //
-// Columns, offsets, pushes, and pulls for extra small devices like
-// smartphones.
 
-.make-grid(xs);
+//// Extra small grid
+////
+//// Columns, offsets, pushes, and pulls for extra small devices like
+//// smartphones.//
 
-
-// Small grid
+//.make-grid(xs);//
 //
-// Columns, offsets, pushes, and pulls for the small device range, from phones
-// to tablets.
 
-@media (min-width: @screen-sm-min) {
-  .make-grid(sm);
-}
+//// Small grid
+////
+//// Columns, offsets, pushes, and pulls for the small device range, from phones
+//// to tablets.//
 
-
-// Medium grid
+//@media (min-width: @screen-sm-min) {
+//  .make-grid(sm);
+//}
 //
-// Columns, offsets, pushes, and pulls for the desktop device range.
 
-@media (min-width: @screen-md-min) {
-  .make-grid(md);
-}
+//// Medium grid
+////
+//// Columns, offsets, pushes, and pulls for the desktop device range.//
 
-
-// Large grid
+//@media (min-width: @screen-md-min) {
+//  .make-grid(md);
+//}
 //
-// Columns, offsets, pushes, and pulls for the large desktop device range.
 
-@media (min-width: @screen-lg-min) {
-  .make-grid(lg);
-}
+//// Large grid
+////
+//// Columns, offsets, pushes, and pulls for the large desktop device range.//
+
+//@media (min-width: @screen-lg-min) {
+//  .make-grid(lg);
+//}
