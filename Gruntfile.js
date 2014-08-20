@@ -154,7 +154,7 @@ module.exports = function (grunt) {
     },
 
     less: {
-      compileCore: {
+      /*compileCore: {
         options: {
           strictMath: true,
           sourceMap: true,
@@ -165,7 +165,7 @@ module.exports = function (grunt) {
         files: {
           'dist/css/<%= pkg.name %>.css': 'less/bootstrap.less'
         }
-      },
+      },*/
       compileTheme: {
         options: {
           strictMath: true,
