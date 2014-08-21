@@ -4785,6 +4785,8 @@ a.label:focus {
   background-color: #eeeeee;
 }
 .jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
 .jumbotron .h1 {
   color: #ffffff;
 }
@@ -5603,7 +5605,7 @@ button.close {
   -webkit-appearance: none;
 }
 .homepage-callout {
-  background-image: url(../../img/placeholders/background-learner.jpg);
+  background-image: url(../../img/placeholders/background-1.png);
   height: 100vh;
   min-height: 400px;
   max-height: 1000px;
@@ -5611,12 +5613,25 @@ button.close {
   background-size: cover;
 }
 .homepage-callout h1,
-.homepage-callout h2 {
+.homepage-callout h2,
+.homepage-callout h3,
+.homepage-callout h4,
+.homepage-callout h5,
+.homepage-callout h6 {
   color: #ffffff;
 }
 .homepage-callout .callout-text {
   position: absolute;
   top: 30%;
+}
+.callout-cover {
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.7);
 }
 .modal-open {
   overflow: hidden;

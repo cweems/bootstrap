@@ -27,7 +27,7 @@ $(document).ready(function() {
 			}
 		});
 
-		var items = ["nurses", "disaster responders", "zookepeers", "superheroes", "tollboth operators", "rainbow counters",  "economists", "M&E specialists", "volunteers", "project managers", "catherines"],
+		var items = ["nurses", "disaster responders", "zookepeers", "superheroes", "tollboth operators", "rainbow counters",  "economists", "M&E specialists", "volunteers", "project managers"],
         $text = $( '#tagline-span' ),
         delay = 3; //seconds
     
