@@ -4242,13 +4242,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   vertical-align: middle;
 }
 .navbar-fixed-top .menu-logo {
-  font-size: 35px;
+  font-size: 45px;
   transition: font-size 0.25s;
   vertical-align: middle;
   margin-right: 15px;
 }
 .navbar-fixed-top .brand-text {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   transition: font 0.25s;
   vertical-align: middle;
@@ -4285,65 +4285,184 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     padding-bottom: 14px;
   }
 }
+/*
 .navbar-default {
-  background-color: #00b7d9;
-  border-color: #00b7d9;
+  background-color: @brand-primary;
+  border-color: @brand-primary;
+  transition: all 0.25s; 
+
+  .navbar-brand {
+    color: @brand-white;
+    &:hover,
+    &:focus {
+      color: @navbar-default-brand-hover-color;
+      background-color: @navbar-default-brand-hover-bg;
+    }
+  }
+
+  .navbar-text {
+    color: @brand-white;
+  }
+
+  .navbar-nav {
+  	float: right;
+
+    > li > a {
+      color: @brand-white;
+
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-hover-color;
+        background-color: @navbar-default-link-hover-bg;
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-active-color;
+        background-color: @brand-primary;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-disabled-color;
+        background-color: @navbar-default-link-disabled-bg;
+      }
+    }
+  }
+
+  .navbar-toggle {
+    border-color: @navbar-default-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: @brand-primary;
+    }
+    .icon-bar {
+      background-color: @navbar-default-toggle-icon-bar-bg;
+    }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: @navbar-default-border;
+  }
+
+  &.navbar-active {
+  	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  	transition: all 0.25s;
+  	background-color: @brand-white;
+
+  	* {
+  		color: @brand-primary !important;
+  	}
+  }
+}
+
+//  // Dropdown menu items
+  .navbar-nav {
+    // Remove background color from open dropdown
+    > .open > a {
+      &,
+      &:hover,
+      &:focus {
+        background-color: @navbar-default-link-active-bg;
+        color: @navbar-default-link-active-color;
+      }
+    }
+
+    @media (max-width: @grid-float-breakpoint-max) {
+      // Dropdowns get custom display when collapsed
+      .open .dropdown-menu {
+        > li > a {
+          color: @navbar-default-link-color;
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-hover-color;
+            background-color: @navbar-default-link-hover-bg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-active-color;
+            background-color: @navbar-default-link-active-bg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-disabled-color;
+            background-color: @navbar-default-link-disabled-bg;
+          }
+        }
+      }
+    }
+  }
+*/
+.navbar-home {
+  background-color: none;
+  border-color: none;
   transition: all 0.25s;
 }
-.navbar-default .navbar-brand {
+.navbar-home .navbar-brand {
   color: #ffffff;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navbar-home .navbar-brand:hover,
+.navbar-home .navbar-brand:focus {
   color: #5e5e5e;
   background-color: transparent;
 }
-.navbar-default .navbar-text {
+.navbar-home .navbar-text {
   color: #ffffff;
 }
-.navbar-default .navbar-nav {
+.navbar-home .navbar-nav {
   float: right;
 }
-.navbar-default .navbar-nav > li > a {
+.navbar-home .navbar-nav > li > a {
   color: #ffffff;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-home .navbar-nav > li > a:hover,
+.navbar-home .navbar-nav > li > a:focus {
   color: #333333;
   background-color: transparent;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-home .navbar-nav > .active > a,
+.navbar-home .navbar-nav > .active > a:hover,
+.navbar-home .navbar-nav > .active > a:focus {
   color: #555555;
   background-color: #00b7d9;
 }
-.navbar-default .navbar-nav > .disabled > a,
-.navbar-default .navbar-nav > .disabled > a:hover,
-.navbar-default .navbar-nav > .disabled > a:focus {
+.navbar-home .navbar-nav > .disabled > a,
+.navbar-home .navbar-nav > .disabled > a:hover,
+.navbar-home .navbar-nav > .disabled > a:focus {
   color: #cccccc;
   background-color: transparent;
 }
-.navbar-default .navbar-toggle {
+.navbar-home .navbar-toggle {
   border-color: #dddddd;
 }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-home .navbar-toggle:hover,
+.navbar-home .navbar-toggle:focus {
   background-color: #00b7d9;
 }
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-home .navbar-toggle .icon-bar {
   background-color: #888888;
 }
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
+.navbar-home .navbar-collapse,
+.navbar-home .navbar-form {
   border-color: #e7e7e7;
 }
-.navbar-default.navbar-active {
+.navbar-home.navbar-active {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: all 0.25s;
   background-color: #ffffff;
 }
-.navbar-default.navbar-active * {
+.navbar-home.navbar-active * {
   color: #00b7d9 !important;
 }
 .navbar-nav > .open > a,
@@ -5475,6 +5594,23 @@ button.close {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
+}
+.homepage-callout {
+  background-image: url(../../img/placeholders/background-learner.jpg);
+  height: 100vh;
+  min-height: 400px;
+  max-height: 1000px;
+  width: 100%;
+  background-size: cover;
+}
+.homepage-callout h1,
+.homepage-callout h2 {
+  color: #ffffff;
+}
+.homepage-callout .callout-text {
+  position: absolute;
+  top: 30%;
+  margin-left: 50px;
 }
 .modal-open {
   overflow: hidden;

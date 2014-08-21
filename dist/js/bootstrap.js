@@ -2173,21 +2173,32 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 
 'use strict';
 
-jQuery(document).ready(function() {
-	jQuery(window).scroll(function(){
+var scrollLocked = false;
+
+$(document).ready(function() {
+	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
 	    if (scroll >= 3) {
-	        jQuery(".navbar").addClass("navbar-active");
+	        $('.navbar').addClass('navbar-active');
+	        scrollLocked = true;
+	        console.log("scroll locked");
 	    }
 	    else {
-	    	jQuery(".navbar").removeClass("navbar-active");
+	    	$('.navbar').removeClass('navbar-active');
+	    	scrollLocked = false;
+	    	console.log("scroll unlocked");
 	    }
 	});
-	jQuery('.navbar')
+	$('.navbar')
 		.mouseover(function(){
-			jQuery(".navbar").addClass("navbar-active");
+			$('.navbar').addClass('navbar-active');
 		})
 		.mouseleave(function(){
-			jQuery(".navbar").removeClass("navbar-active");
+			if (scrollLocked === false){
+				$('.navbar').delay(800).removeClass('navbar-active');
+			}
+			else {
+				return;
+			}
 		});
 });
