@@ -4241,6 +4241,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   transition: font 0.25s;
   vertical-align: middle;
 }
+.navbar-fixed-top.navbar-active .icon-bar {
+  background-color: #00b7d9;
+}
+.navbar-fixed-top.navbar-active .btn-transparent {
+  border-color: #00b7d9;
+  transition: all 0.25s;
+}
 .navbar-fixed-top .menu-logo {
   font-size: 45px;
   transition: font-size 0.25s;
@@ -4451,7 +4458,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #00b7d9;
 }
 .navbar-home .navbar-toggle .icon-bar {
-  background-color: #888888;
+  background-color: #ffffff;
 }
 .navbar-home .navbar-collapse,
 .navbar-home .navbar-form {
@@ -4775,7 +4782,7 @@ a.label:focus {
 }
 .jumbotron.grey {
   color: #ffffff;
-  background-color: grey;
+  background-color: #eeeeee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5610,7 +5617,6 @@ button.close {
 .homepage-callout .callout-text {
   position: absolute;
   top: 30%;
-  margin-left: 50px;
 }
 .modal-open {
   overflow: hidden;
@@ -5731,6 +5737,20 @@ button.close {
   .modal-lg {
     width: 900px;
   }
+}
+.modal.login-modal .modal-header {
+  background-color: #00b7d9;
+  color: #ffffff;
+  border-bottom: #00b7d9;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.modal.login-modal .modal-body {
+  background-color: #00b7d9;
+  color: #ffffff;
+}
+.modal.login-modal .row {
+  margin-top: 15px;
 }
 .tooltip {
   position: absolute;

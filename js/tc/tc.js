@@ -8,12 +8,10 @@ $(document).ready(function() {
 	    if (scroll >= 3) {
 	        $('.navbar').addClass('navbar-active');
 	        scrollLocked = true;
-	        console.log("scroll locked");
 	    }
 	    else {
 	    	$('.navbar').removeClass('navbar-active');
 	    	scrollLocked = false;
-	    	console.log("scroll unlocked");
 	    }
 	});
 	$('.navbar')
@@ -28,4 +26,28 @@ $(document).ready(function() {
 				return;
 			}
 		});
+
+		var items = ["nurses", "disaster responders", "zookepeers", "superheroes", "tollboth operators", "rainbow counters",  "economists", "M&E specialists", "volunteers", "project managers", "catherines"],
+        $text = $( '#tagline-span' ),
+        delay = 3; //seconds
+    
+	    function loop ( delay ) {
+	        $.each( items, function ( i, elm ){
+	            $text.delay( delay*1E3 ).fadeOut();
+	            $text.queue(function(){
+	                $text.html( items[i] );
+	                $text.dequeue();
+	            });
+	            $text.fadeIn();
+	            $text.queue(function(){
+	                if ( i == items.length -1 ) {
+	                    loop(delay);   
+	                }
+	                $text.dequeue();
+	            });
+	        });
+	    }
+
+	    loop( delay );
+
 });

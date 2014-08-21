@@ -52,7 +52,7 @@
             <li><a href="#contact">Services</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#contact">Blog</a></li>
-            <li><a href="#login" id="login"><button type="button" class="btn btn-transparent">Login</button></a></li>
+            <li><a href="#login" id="login"><button type="button" class="btn btn-transparent" data-toggle="modal" data-target="#login-modal">Login</button></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -60,11 +60,11 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="homepage-callout">
-        <div class="container callout-text">
-          <div class="col-md-6">
-            <br>
-            <br>
-            <h2>Technology doesn't change the world, taglines do.</h2>
+        <div class="container">
+        <div class="callout-text">
+          <div class="col-md-12">
+            <h2>Technology doesn't change the world,<h2>
+            <h2><span id="tagline-span">people</span> do.</h2>
             <br>
             <p><a href="#" class="btn btn-primary btn-lg" role="button">Register for a Course  &rsaquo;</a></p>
             <p><a href="#" class="btn btn-transparent btn-lg" role="button">Build a course with us  &rsaquo;</a></p>
@@ -73,7 +73,7 @@
           </div>
         </div>
       </div>
-
+      </div> 
     <div class="container theme-showcase" role="main">
 
       <div class="page-header container">
@@ -112,7 +112,41 @@
 
         <!--End First Section-->
 
-    
+        <!-- Login Modal-->
+        <div class="modal fade login-modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Login to TechChange</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Password">
+                </div>
+              </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" href="#">Login</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
 
         <!-- Modal 1-->

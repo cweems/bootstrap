@@ -150,3 +150,22 @@
 //@media (min-width: @screen-md-min) {
 //  .modal-lg { width: @modal-lg; }
 //}
+
+//Login Modal
+.modal {
+	&.login-modal {
+		.modal-header {
+			background-color: @brand-primary;
+			color: @brand-white;
+			border-bottom: @brand-primary;
+			.border-top-radius(3px); 
+		}
+		.modal-body {
+			background-color: @brand-primary;
+			color: @brand-white;
+		}
+		.row {
+			margin-top: 15px;
+		}
+	}
+}
