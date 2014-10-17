@@ -65,6 +65,12 @@
 .btn-transparent {
   .button-variant(@btn-transparent-color; @btn-transparent-bg; @btn-transparent-border);
   border-width: 2px;
+  transition: all .25s;
+  &:hover {
+  	background-color: @brand-white;
+  	color: @brand-primary;
+  	transition: all .25s;
+  }
 }
 //.btn-primary {
 //  .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);

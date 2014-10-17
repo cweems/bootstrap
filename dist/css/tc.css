@@ -1,3 +1,9 @@
+/*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
@@ -2974,6 +2980,7 @@ input[type="button"].btn-block {
   background-color: transparent;
   border-color: #ffffff;
   border-width: 2px;
+  transition: all .25s;
 }
 .btn-transparent:hover,
 .btn-transparent:focus,
@@ -3014,6 +3021,11 @@ fieldset[disabled] .btn-transparent.active {
 .btn-transparent .badge {
   color: transparent;
   background-color: #ffffff;
+}
+.btn-transparent:hover {
+  background-color: #ffffff;
+  color: #00b7d9;
+  transition: all .25s;
 }
 .fade {
   opacity: 0;
@@ -5622,7 +5634,7 @@ button.close {
 }
 .homepage-callout .callout-text {
   position: absolute;
-  top: 30%;
+  top: 20%;
 }
 .callout-cover {
   z-index: 1;
