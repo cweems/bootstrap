@@ -154,7 +154,7 @@ module.exports = function (grunt) {
     },
 
     less: {
-      /*compileCore: {
+      compileCore: {
         options: {
           strictMath: true,
           sourceMap: true,
@@ -165,7 +165,7 @@ module.exports = function (grunt) {
         files: {
           'dist/css/<%= pkg.name %>.css': 'less/bootstrap.less'
         }
-      },*/
+      },
       compileTheme: {
         options: {
           strictMath: true,
@@ -198,12 +198,6 @@ module.exports = function (grunt) {
           map: true
         },
         src: 'dist/css/<%= pkg.name %>.css'
-      },
-      theme: {
-        options: {
-          map: true
-        },
-        src: 'dist/css/<%= pkg.name %>-theme.css'
       },
       docs: {
         src: 'docs/assets/css/src/docs.css'
@@ -318,9 +312,9 @@ module.exports = function (grunt) {
       }
     },
 
-    jekyll: {
+    /*jekyll: {
       docs: {}
-    },
+    },*/
 
     jade: {
       options: {
@@ -357,7 +351,7 @@ module.exports = function (grunt) {
 
     watch: {
       options: {
-        livereload: true,
+        livereload: true
       },
       src: {
         files: ['<%= jshint.src.src %>', 'tc/**/*.html', 'js/**/*.js'],
